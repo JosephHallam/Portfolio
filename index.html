@@ -1,14 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
+
+</html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="./main.css">
-    <title>Document</title>
+    <link rel="shortcut icon" href="../Portfolio/assets/CroppedLogo.png" />
+    <title>Joseph Hallam</title>
+    <style>
+        html,
+        body{
+            
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
+
 <body>
+    <div class="body">
+
+        <nav class="navbar">
+            <img id="navbarLogo" src="../Portfolio/assets/CroppedLogo.png">
+            <ul class="navbarItemList">
+                <li class="navbarWords" id="contactLink"><a href="#contactHeader">Contact Me</a></li>
+                <li class="navbarWords" id="valuesLink"><a href="#aboveValues">My Core Values</a></li>
+                <li class="navbarWords" id="projectsLink"><a href="#aboveProjects">My Projects</a></li>
+                <li class="navbarWords" id="aboutLink"><a href="#aboveAboutMe">About Me</a></li>
+            </ul>
+        </nav>
+        <div id="aboveAboutMe"></div>
+        <div class="aboutMe">
+            <br><br><br><br><br>
+            <h1 id="nameAboveAboutMe">Joseph Hallam, Professional Problem Solver</h1>
+            <ul class="aboutMeList">
+                <li><img src="../Portfolio/assets/Screenshot_20200218-131845_2.png" id="selfie"></li>
+                <li id="headerAndText">
+                    <h2>About Me</h2>
+                    <p>My name is Joseph Hallam. I am a .NET developer with proficiency in C#, HTML, and CSS. I am
+                        currently
+                        a
+                        student at Eleven Fifty Academy in Fishers, Indiana. Below are some of my previous works, along
+                        with
+                        my core
+                        values that help define me as an employee, student, and person. About me, personally, I am a
+                        former
+                        Chemistry student at IUPUI, I am a very methodical worker on the projects I work on, and I am an
+                        avid
+                        learner.</p>
+                </li>
+            </ul>
+        </div>
+        <br id="aboveProjects">
+        <br><br><br>
+        <div class="projects">
+            <h2 id="projectsHeader">My Projects</h2>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="https://github.com/JosephHallam/HangMan" target="blank"><img
+                                src="../Portfolio/assets/HangManScreenShot.png" class="carouselImages" alt="..."></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://codepen.io/Hallam_Joseph/pen/gObyzdr" target="blank"><img
+                                src="../Portfolio/assets/ms pac man ss.png" class="carouselImages" id="pacImage"
+                                alt="..."></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://github.com/JosephHallam/My-Store-Front-Project" target="blank"><img
+                                src="./assets/goodStoreSS.png" class="carouselImages" alt="..."></a>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        <br id="aboveValues">
+        <br>
+        <br><br><br>
+        <div class="myValues">
+            <h2 id="coreValuesHeader">My Core Values</h2>
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                                aria-expanded="true" aria-controls="collapseOne">
+                                <p class="tabNames">Communication</p>
+                            </button>
+                        </h2>
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                        data-parent="#accordionExample">
+                        <div class="card-body">
+                            In any interaction involving more than one person, communication is absolutely crucial. In
+                            my
+                            eyes, this is especially important in the tech industry. The ability to communicate ideas
+                            with
+                            teammates who have knowledge over the same subjects you do, as well as with customers and
+                            contractors who may not.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <p class="tabNames">Confidence</p>
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                            To many people, employers especially, being a good leader is a very important trait to have.
+                            To
+                            me, leadership isn't quite the right word. I believe that, to be an effective leader, as
+                            well as
+                            a team member, you have to be confident in yourself, your work, and the knowledge that you
+                            have
+                            and are willing to offer to your teammates or the people working below you. If you aren't
+                            confident in the things you say, how can anyone else place their faith in you to do
+                            something?
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <p class="tabNames">Work Ethic</p>
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                        data-parent="#accordionExample">
+                        <div class="card-body">
+                            One of the most important things I have learned throughout my time as a student, as well as
+                            an
+                            employee is to have proper work ethic. For me, being paid for a job means that you should do
+                            everything in your power to do that job to the best of your ability. I believe this same
+                            concept
+                            applies to learning as well. If you can work to better yourself in an area that is
+                            meaningful to
+                            you, you should
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+
+        <div class="contactMe">
+            <h2 id="contactHeader">Contact Me</h2>
+            <input type="text" placeholder="Name" class="inputBars">
+            <input type="email" placeholder="Email" class="inputBars">
+        </div>
+        <br>
+        <div class="contact2">
+
+            <input type="text" placeholder="Your message here..." class="inputBars" id="bigText">
+        </div>
+        <br>
+        <div class="button">
+
+            <a href=""><button id="submitButton">Submit</button></a>
+        </div>
+        <br><br><br>
+    </div>
+        <footer class="footer">
+            <ul>
+                <li id="copyrightAndName">
+                    <p><b>&copy; Joseph Hallam 2020</b></p>
+                </li>
+                <li><img src="./assets/joelogotransparent.png" id="joelogo"></li>
+                <li><a href="https://www.linkedin.com/in/joseph-hallam-a4977b83/" target="blank"><img
+                            src="./assets/LinkedIn-Logo.png" id="linkedinLogo"></a></li>
+                <li><a href="https://github.com/JosephHallam" target="blank"><img src="./assets/github transparent.png"
+                            id="githubLogo"></a>
+                </li>
+            </ul>
+        </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    </body>
     
-</body>
 </html>
