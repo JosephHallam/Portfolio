@@ -29,6 +29,7 @@
 #valuesLink:hover{transform: scale(1.1);}
 #aboutLink:hover{transform: scale(1.1);}
 #projectsLink:hover{transform: scale(1.1);}
+#workLink:hover {transform: scale(1.1);}
 .navbar a{
     color: black;
 }
