@@ -157,12 +157,36 @@ body{
 }
 .inputBars{
     background-color: transparent;
-    border-bottom: 3px solid black;
-    border-top: transparent;
-    border-left: transparent;
-    border-right: transparent;
+    border-bottom: 2px solid black;
+    border-top: 2px solid transparent;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
     color: white;
-    
+}
+#nameBox{
+    transition: all 0.3s;
+}
+#nameBox:hover{
+    border-top: 2px solid black;
+border-left: 2px solid black;
+border-right: 2px solid black;
+}
+#emailBox{
+    transition: all 0.3s;
+}
+#emailBox:hover{
+    border-top: 2px solid black;
+border-left: 2px solid black;
+border-right: 2px solid black;
+}
+#bigText{
+    width: 23.70%;
+    transition: all 0.3s;
+}
+#bigText:hover{
+border-top: 2px solid black;
+border-left: 2px solid black;
+border-right: 2px solid black;
 }
 ::placeholder{
     color: white;
@@ -171,25 +195,22 @@ body{
 #submitButton{
     color: white;
     background-color: transparent;
-    border-bottom: 3px solid black;
-    border-top: transparent;
-    border-left: transparent;
-    border-right: transparent;
-    z-index: 2;
+    border-bottom: 2px solid black;
+    border-top: 2px solid transparent;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
     transition: all 0.4s;
 }
-#submitButton :hover{
+#submitButton:hover{
     transform: rotate(360deg);
-    background-color: white;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    background-color: lightgreen;
     color: black;
 }
 .button{
     height: 100px;
-}
-.button a :hover{
-    transform: rotate(360deg);
-    background-color: white;
-    color: black;
 }
 #nameAboveAboutMe{
     position: relative;
@@ -239,7 +260,4 @@ body{
     position: relative;
     bottom: -100px;
     color: white;
-}
-#bigText{
-    width: 23.70%;
 }
