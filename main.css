@@ -73,6 +73,8 @@ footer{
 }
 .projects{
     text-align: center;
+    position: relative;
+    top: -125px;
 }
 #carouselExampleIndicators{
     width: 60%;
@@ -98,9 +100,12 @@ body{
     display: inline-block;
     list-style-type: none;
 }
+.aboutMeList h2{
+    color: #212529;
+}
 #selfie{
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     position: relative;
     bottom: -200px;
     left: 50px;
@@ -110,11 +115,19 @@ body{
     width: 70%;
     height: auto;
     padding-right: 10%;
+    color: white;
+    position: relative;
+    top: -50px;
 }
 .aboutMe{
     position: relative;
   padding-top: -20px;
-    top: -75px;
+    top: -125px;
+}
+.aboutMe p{
+    font-size: 14pt;
+    color: white;
+    
 }
 .myValues{
     text-align: center;
@@ -162,6 +175,9 @@ body{
     background-color: white;
     color: black;
 }
+.button{
+    height: 100px;
+}
 .button a :hover{
     transform: rotate(360deg);
     background-color: white;
@@ -170,4 +186,35 @@ body{
 #nameAboveAboutMe{
     position: relative;
     bottom: -100px;
+}
+.Experience h2{
+    font-size: 24pt;
+}
+.Experience p{
+    font-size: 14pt;
+}
+#exacthireLogo{
+    width: 350px;
+    height: 350px;
+}
+#tjxLogo{
+    width: 350px;
+    height: 350px;
+}
+.tjxWork p{
+    width: 70%;
+    float: right;
+    position: relative;
+    bottom: -100px;
+    color: white;
+}
+.exacthireWork p{
+    width: 70%;
+    float: right;
+    position: relative;
+    bottom: -100px;
+    color: white;
+}
+#bigText{
+    width: 23.70%;
 }

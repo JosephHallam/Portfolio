@@ -14,8 +14,8 @@
     <title>Joseph Hallam</title>
     <style>
         html,
-        body{
-            
+        body {
+
             scroll-behavior: smooth;
         }
     </style>
@@ -28,8 +28,9 @@
             <img id="navbarLogo" src="../Portfolio/assets/CroppedLogo.png">
             <ul class="navbarItemList">
                 <li class="navbarWords" id="contactLink"><a href="#contactHeader">Contact Me</a></li>
+                <li class="navbarWords" id="workLink"><a href="#aboveExp">Experience</a></li>
                 <li class="navbarWords" id="valuesLink"><a href="#aboveValues">My Core Values</a></li>
-                <li class="navbarWords" id="projectsLink"><a href="#aboveProjects">My Projects</a></li>
+                <li class="navbarWords" id="projectsLink"><a href="#about">My Projects</a></li>
                 <li class="navbarWords" id="aboutLink"><a href="#aboveAboutMe">About Me</a></li>
             </ul>
         </nav>
@@ -52,11 +53,12 @@
                         Chemistry student at IUPUI, I am a very methodical worker on the projects I work on, and I am an
                         avid
                         learner.</p>
+                    <p id="about"></p>
                 </li>
             </ul>
         </div>
         <br id="aboveProjects">
-        <br><br><br>
+        <br>
         <div class="projects">
             <h2 id="projectsHeader">My Projects</h2>
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -92,7 +94,8 @@
         </div>
         <br id="aboveValues">
         <br>
-        <br><br><br>
+        <br>
+        <br>
         <div class="myValues">
             <h2 id="coreValuesHeader">My Core Values</h2>
             <div class="accordion" id="accordionExample">
@@ -166,8 +169,46 @@
                 </div>
             </div>
         </div>
-        <br><br><br>
+        <br id="aboveExp"><br><br><br>
+        <div class="Experience">
+            <h2>Work Experience</h2>
+            <div class="exacthireWork">
+                <img src="./assets/exacthirelogo.png" id="exacthireLogo"></li>
 
+                <!-- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade -->
+
+                <p>In Spring of 2015, I did some basic freelance HTML work on the
+                    ExactHire website for the co-founder
+                    creating and filling out forms for various customers they had.</p>
+
+            </div>
+            <br>
+            <div class="tjxWork">
+                <img src="./assets/tjx logo.jpg" id="tjxLogo">
+                <p>From Fall of 2015 to the beginning of 2019, I was an employee at TJ
+                    Maxx in
+                    Noblesville, Indiana. I
+                    was
+                    originally part-time, but I began working full-time from April of 2017 to the beginning
+                    of
+                    2019. In
+                    June
+                    of 2018, I was promoted to a Customer Experince Coordinator, a leadership position that
+                    consisted
+                    primarily of addressing customer concerns over item pricing, item returns, and overall
+                    experience
+                    with
+                    the cashiers that worked under me. On January 1st, 2019, a transfer I had initiated to a
+                    nearby
+                    Homegoods was approved, and I began working part-time there, where I am still employed.
+                    In
+                    December
+                    of
+                    2019, I was named Associate of the Quarter, a title voted on by my fellow employees.
+                </p>
+            </div>
+        </div>
+        <br><br><br>
         <div class="contactMe">
             <h2 id="contactHeader">Contact Me</h2>
             <input type="text" placeholder="Name" class="inputBars">
@@ -183,30 +224,30 @@
 
             <a href=""><button id="submitButton">Submit</button></a>
         </div>
-        <br><br><br>
+
     </div>
-        <footer class="footer">
-            <ul>
-                <li id="copyrightAndName">
-                    <p><b>&copy; Joseph Hallam 2020</b></p>
-                </li>
-                <li><img src="./assets/joelogotransparent.png" id="joelogo"></li>
-                <li><a href="https://www.linkedin.com/in/joseph-hallam-a4977b83/" target="blank"><img
-                            src="./assets/LinkedIn-Logo.png" id="linkedinLogo"></a></li>
-                <li><a href="https://github.com/JosephHallam" target="blank"><img src="./assets/github transparent.png"
-                            id="githubLogo"></a>
-                </li>
-            </ul>
-        </footer>
+    <footer class="footer">
+        <ul>
+            <li id="copyrightAndName">
+                <p><b>&copy; Joseph Hallam 2020</b></p>
+            </li>
+            <li><img src="./assets/joelogotransparent.png" id="joelogo"></li>
+            <li><a href="https://www.linkedin.com/in/joseph-hallam-a4977b83/" target="blank"><img
+                        src="./assets/LinkedIn-Logo.png" id="linkedinLogo"></a></li>
+            <li><a href="https://github.com/JosephHallam" target="blank"><img src="./assets/github transparent.png"
+                        id="githubLogo"></a>
+            </li>
+        </ul>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
-    </body>
-    
+</body>
+
 </html>
