@@ -164,7 +164,7 @@ body{
     color: white;
 }
 #nameBox{
-    transition: all 0.3s;
+    transition: all 0.5s;
 }
 #nameBox:hover{
     border-top: 2px solid black;
@@ -172,7 +172,7 @@ border-left: 2px solid black;
 border-right: 2px solid black;
 }
 #emailBox{
-    transition: all 0.3s;
+    transition: all 0.5s;
 }
 #emailBox:hover{
     border-top: 2px solid black;
@@ -181,7 +181,7 @@ border-right: 2px solid black;
 }
 #bigText{
     width: 23.70%;
-    transition: all 0.3s;
+    transition: all 0.5s;
 }
 #bigText:hover{
 border-top: 2px solid black;
@@ -190,7 +190,7 @@ border-right: 2px solid black;
 }
 ::placeholder{
     color: white;
-    opacity: 1;
+    opacity: 0.8;
 }
 #submitButton{
     color: white;
@@ -211,6 +211,7 @@ border-right: 2px solid black;
 }
 #storeCaption{
     background-color: black;
+    opacity: 80%;
     border-radius: 10px;
 }
 .button{

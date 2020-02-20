@@ -220,19 +220,22 @@
         <br><br><br>
         <div class="contactMe">
             <h2 id="contactHeader">Contact Me</h2>
-            <input type="text" placeholder="Name" class="inputBars" id="nameBox">
-            <input type="email" placeholder="Email" class="inputBars" id="emailBox">
-        </div>
-        <br>
-        <div class="contact2">
-
-            <input type="text" placeholder="Your message here..." class="inputBars" id="bigText">
-        </div>
-        <br>
-        <div class="button">
-
-            <a href=""><button id="submitButton">Submit</button></a>
-        </div>
+            <form action="https://formspree.io/myyjywyk" method="POST">
+                <input type="text" placeholder="Name" class="inputBars" id="nameBox" name="name">
+                <input type="email" placeholder="Email" class="inputBars" id="emailBox" name="email">
+            </div>
+            <br>
+            <div class="contact2">
+                
+                <input type="text" placeholder="Your message here..." class="inputBars" id="bigText" name="message">
+            </div>
+            <br>
+            <input type="hidden" name="_next" value="file:///C:/ElevenFiftyProjects/Portfolio/index.html"/>
+            <div class="button">
+                
+                <a href=""><button type="submit" id="submitButton" value="Send">Submit</button></a>
+            </div>
+        </form>
     </div>
     <footer class="footer">
         <ul>
