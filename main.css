@@ -112,8 +112,8 @@ body{
     color: #212529;
 }
 #selfie{
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 400px;
     position: relative;
     bottom: -200px;
     left: 50px;
@@ -216,11 +216,13 @@ border-right: 2px solid black;
 }
 .button{
     height: 100px;
+    position: relative;
+    bottom: 50px;
 }
 #nameAboveAboutMe{
     position: relative;
     float: left;
-    width: 52.5%;
+    width: 54%;
     bottom: -100px;
     border-right: 5px solid #212529;
     overflow: hidden;
@@ -232,7 +234,7 @@ border-right: 2px solid black;
 }
 @keyframes typing{
     from {width: 0}
-    to {width: 52.5%}
+    to {width: 54%}
 }
 @keyframes blink-caret{
     from, to {border-color: transparent}
@@ -265,4 +267,22 @@ border-right: 2px solid black;
     position: relative;
     bottom: -100px;
     color: white;
+}
+#resumeTag{
+    text-align: right;
+    color: white;
+    margin-right: 5%;
+    font-size: 13pt;
+}
+.contact2{
+    position: relative;
+    bottom: 50px;
+}
+#resumeLink{
+    color: white;
+    border-bottom: 1px solid white;
+}
+#resumeLink:hover{
+    color: black;
+    border-bottom: 1px solid black;
 }
